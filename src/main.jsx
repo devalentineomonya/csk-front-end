@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+import { store, persistor } from "./Redux/store.js";
 import App from "./App.jsx";
 import "./index.css";
 import {
@@ -95,10 +98,6 @@ const theme = createTheme({
 
 let appTheme = createTheme(theme);
 appTheme = responsiveFontSizes(appTheme);
-
-import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/integration/react";
-import { store, persistor } from "./Redux/store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
