@@ -7,13 +7,12 @@ import PublicAppBar from "../../Components/AppBars/PublicAppBar";
 const SignupPage = () => {
   return (
     <div>
-      <Box sx={{ paddingTop: "1rem" }}>
+      <Box sx={{ paddingTop: "1rem", maxWidth:"1280px" }}>
         <PublicAppBar />
         <Grid container spacing={1}>
           <Grid item xs={12} sm={6}>
             <ImageLogo />
           </Grid>
-
           <Grid item xs={12} sm={6}>
             <SignupForm />
           </Grid>

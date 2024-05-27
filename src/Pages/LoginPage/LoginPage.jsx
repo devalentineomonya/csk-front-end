@@ -7,7 +7,7 @@ import LoginForm from "../../Components/Login/LoginForm";
 
 function LoginPage() {
   return (
-    <Box sx={{ minHeight: "100vh" }}>
+    <Box sx={{ minHeight: "100vh", maxHeight: "1280px"}}>
       <Box sx={{ paddingTop: "1rem" }}>
         <PublicAppBar />
         <Grid container spacing={1}>

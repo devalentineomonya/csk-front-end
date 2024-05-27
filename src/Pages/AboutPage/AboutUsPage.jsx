@@ -7,13 +7,13 @@ import Footer from "../../Components/Footer/Footer";
 
 function AboutUsPage() {
   return (
-    <>
+    <div className="max-width">
       <PublicAppBar />
       <Introduction />
       <MLSA />
       <GDSC />
       <Footer />
-    </>
+    </div>
   );
 }
 

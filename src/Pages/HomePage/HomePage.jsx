@@ -7,7 +7,7 @@ import JoinUs from "./JoinUs/JoinUs";
 import Footer from '../../Components/Footer/Footer'
 const HomePage = () => {
   return (
-    <>
+    <div className="max-width">
       <PublicAppBar />
       <Hero />
       <UpcomingEvents />
@@ -15,7 +15,7 @@ const HomePage = () => {
       <Benefits />
       <JoinUs />
       <Footer />
-    </>
+    </div>
   );
 };
 export default HomePage;
